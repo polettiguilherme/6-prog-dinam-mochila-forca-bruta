@@ -1,0 +1,1 @@
+# 6-prog-dinam-mochila-forca-bruta
