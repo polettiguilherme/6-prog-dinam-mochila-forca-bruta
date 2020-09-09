@@ -6,21 +6,22 @@
    1. Implemente e teste sua solução, para o caso exposto em aula e outros de mesmo porte (;-)).
 1. Resolva o problema da mochila utilizando o algoritmo com programação dinâmica visto em aula
 ```javascript
-N = número de produtos;
-C = capacidade real da mochila
-itens[N +1]; (O índice 0 guarda null)
-maxTab[N+1][C+1];
+Inteiro backPackPD(Inteiro N, Inteiro C, Tupla<Inteiro, Inteiro> itens)
+   N = número de produtos;
+   C = capacidade real da mochila
+   itens[N +1];   // (O índice 0 guarda null), Tupla com peso e valor
+   maxTab[N+1][C+1];
 
-Inicialize com 0 toda a linha 0 e também a coluna 0;
-para i = 1 até N
-   para j = 1 até C
-      se item itens[i].peso <= j // se o item cabe na mochila atual
-         maxTab[i][j] = Max(maxTab[i-1][j], 
-                            itens[i].valor + 
-                              maxTab[i-1][j – itens[i].peso]);
-      senão
-         maxTab[i][j] = maxTab[i-1][j];
+   Inicialize com 0 toda a linha 0 e também a coluna 0;
+   para i = 1 até N
+      para j = 1 até C
+         se item itens[i].peso <= j // se o item cabe na mochila atual
+            maxTab[i][j] = Max(maxTab[i-1][j], 
+                               itens[i].valor + 
+                                 maxTab[i-1][j – itens[i].peso]);
+         senão
+            maxTab[i][j] = maxTab[i-1][j];
 
-retorne maxTab[N][C] // valor máximo para uma mochila de capacidade C e 		         
-                     //que pode conter itens que vão do item 1 até o item N.
+   retorne maxTab[N][C] // valor máximo para uma mochila de capacidade C e 		         
+                        //que pode conter itens que vão do item 1 até o item N.
 ```
