@@ -4,7 +4,9 @@
    1. Ache uma solução que testa todas as combinações possíveis e seleciona a melhor, aplicando divisão-e-conquista ou não;
    1. Contabilize o número de iterações;
    1. Implemente e teste sua solução, para o caso exposto em aula e outros de mesmo porte (;-)).
-1. Resolva o problema da mochila utilizando o algoritmo com programação dinâmica visto em aula
+1. Resolva o problema da mochila utilizando o algoritmo com programação dinâmica visto em aula, teste e contabilize o número de iterações.
+1. Monte uma tabela com os resultados e número de iterações de ambas a implementações, para os testes de casos disponíveis no moodle.
+
 ```javascript
 Inteiro backPackPD(Inteiro N, Inteiro C, Tupla<Inteiro, Inteiro> itens)
    N = número de produtos;
