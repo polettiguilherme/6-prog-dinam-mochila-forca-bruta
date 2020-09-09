@@ -5,7 +5,7 @@
    1. Contabilize o número de iterações;
    1. Implemente e teste sua solução, para o caso exposto em aula e outros de mesmo porte (;-)).
 1. Resolva o problema da mochila utilizando o algoritmo com programação dinâmica visto em aula
-'''
+```javascript
 N = número de produtos;
 C = capacidade real da mochila
 itens[N +1]; (O índice 0 guarda null)
@@ -22,4 +22,4 @@ para i = 1 até N
          maxTab[i][j] = maxTab[i-1][j];
 
 retorne maxTab[N][C] // valor máximo para uma mochila de capacidade C e 		          //que pode conter itens que vão do item 1 até o item N.
-'''
+```
