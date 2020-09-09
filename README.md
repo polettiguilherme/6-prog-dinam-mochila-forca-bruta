@@ -21,5 +21,6 @@ para i = 1 até N
       senão
          maxTab[i][j] = maxTab[i-1][j];
 
-retorne maxTab[N][C] // valor máximo para uma mochila de capacidade C e 		          //que pode conter itens que vão do item 1 até o item N.
+retorne maxTab[N][C] // valor máximo para uma mochila de capacidade C e 		         
+                     //que pode conter itens que vão do item 1 até o item N.
 ```
