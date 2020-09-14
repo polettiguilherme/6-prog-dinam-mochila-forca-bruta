@@ -26,8 +26,12 @@ Inteiro backPackPD(Inteiro N, Inteiro C, Tupla<Inteiro, Inteiro> itens)
    retorne maxTab[N][C] // valor máximo para uma mochila de capacidade C e 		         
                         //que pode conter itens que vão do item 1 até o item N.
 ```
-1. Implemente e teste o algoritmo de programação dinâmica para Distância de Edição. Contabilize o número de iterações. Utilize o mesmo repositório dos exercícios anteriores sobre programação dinâmica, como o mesmo grupo de trabalho. 
-1. Complete a tabela com os resultados e número de iterações desta implementação, para os strings abaixo:
+4. Resolva o problema da distância de edição conforme o enuciado em sala de aula. 
+   1. Ache uma solução que testa todas as combinações possíveis e seleciona a melhor, aplicando divisão-e-conquista ou não;
+   1. Contabilize o número de iterações;
+   1. Implemente e teste sua solução, para (pelos menos) os caso abaixo.
+5. Implemente e teste o algoritmo de programação dinâmica para Distância de Edição. Contabilize o número de iterações. Utilize o mesmo repositório dos exercícios anteriores sobre programação dinâmica, como o mesmo grupo de trabalho. 
+6. Complete a tabela com os resultados e número de iterações desta implementação, para os strings abaixo:
 ```
 s1 = "Casablanca"
 s2 = "Portentoso"
