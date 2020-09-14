@@ -6,7 +6,6 @@
    1. Implemente e teste sua solução, para o caso exposto em aula e outros de mesmo porte (;-)).
 1. Resolva o problema da mochila utilizando o algoritmo com programação dinâmica visto em aula, teste e contabilize o número de iterações.
 1. Monte uma tabela com os resultados e número de iterações de ambas a implementações, para os casos de testes disponíveis no moodle.
-
 ```javascript
 Inteiro backPackPD(Inteiro N, Inteiro C, Tupla<Inteiro, Inteiro> itens)
    N = número de produtos;
