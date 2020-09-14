@@ -47,7 +47,7 @@ s1 = "Maven, a Yiddish word meaning accumulator of knowledge, began as an attemp
 				"with the comprehension of any Java-based project.";
 s2 = "This post is not about deep learning. But it could be might as well. This is the power of " +
 				"kernels. They are universally applicable in any machine learning algorithm. Why you might" +
-				"ask? I am going to try to answer this question in this article.\r\n" + 
+				"ask? I am going to try to answer this question in this article." + 
 			        "Go to the profile of Marin Vlastelica Pogančić" + 
 			        "Marin Vlastelica Pogančić Jun";
 ```
