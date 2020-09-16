@@ -51,5 +51,5 @@ s2 = "This post is not about deep learning. But it could be might as well. This 
 			        "Go to the profile of Marin Vlastelica Pogančić" + 
 			        "Marin Vlastelica Pogančić Jun";
 ```
-1. Resolva o problema da distância de edição utilizando o algoritmo com programação dinâmica visto em aula, teste e contabilize o número de iterações.
-1. Monte uma tabela com os resultados e número de iterações de ambas a implementações, para, pelo menos, os casos de testes disponíveis acima.
+7. Resolva o problema da distância de edição utilizando o algoritmo com programação dinâmica visto em aula, teste e contabilize o número de iterações.
+8. Monte uma tabela com os resultados e número de iterações de ambas a implementações, para, pelo menos, os casos de testes disponíveis acima.
