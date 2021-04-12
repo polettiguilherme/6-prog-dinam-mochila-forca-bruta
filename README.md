@@ -1,4 +1,4 @@
-# Enunciado para exercício sobre Problema da Mochila
+# Enunciado para exercício sobre Programação Dinâmica
 1. Dadas as três versões de implementação de Fibonacci abaixo:
     
     * implemente os algortimos;
