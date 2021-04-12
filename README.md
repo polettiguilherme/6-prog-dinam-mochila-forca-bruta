@@ -76,12 +76,7 @@ Inteiro backPackPD(Inteiro N, Inteiro C, Tupla<Inteiro, Inteiro> itens)
    1. Ache uma solução que testa todas as combinações possíveis e seleciona a melhor, aplicando divisão-e-conquista ou não;
    1. Contabilize o número de iterações;
    1. Implemente e teste sua solução, para (pelos menos) os caso abaixo.
- 
-7. Implemente e teste o algoritmo de programação dinâmica para Distância de Edição. Contabilize o número de iterações. Utilize o mesmo repositório dos exercícios anteriores sobre programação dinâmica, como o mesmo grupo de trabalho. 
-
-8. Complete a tabela com os resultados e número de iterações desta implementação, para os strings abaixo:
-
-```
+ ```
 s1 = "Casablanca"
 s2 = "Portentoso"
 
@@ -100,11 +95,7 @@ s2 = "This post is not about deep learning. But it could be might as well. This 
 			        "Go to the profile of Marin Vlastelica Pogančić" + 
 			        "Marin Vlastelica Pogančić Jun";
 ```
-
-9. Resolva o problema da distância de edição utilizando o algoritmo com programação dinâmica visto em aula, teste e contabilize o número de iterações.
-
-10. Monte uma tabela com os resultados e número de iterações de ambas a implementações, para, pelo menos, os casos de testes disponíveis acima.
-
+7. Implemente e teste o algoritmo de programação dinâmica para Distância de Edição. Contabilize o número de iterações. Utilize o mesmo repositório dos exercícios anteriores sobre programação dinâmica, como o mesmo grupo de trabalho. 
 ```
 // Assumindo os Custos: Remoção=R, Inserção=I , Substituição=S e Match=M=0;
 
@@ -126,3 +117,4 @@ inteiro distEdProgDina(string A, String B)
 				    matriz[i-1][j-1] + custoExtra];
 	devolva matriz[m][n];
 ```
+8. Monte uma tabela com os resultados e número de iterações de ambas a implementações, para, pelo menos, os casos de testes disponíveis acima.
